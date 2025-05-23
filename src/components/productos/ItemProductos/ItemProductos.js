@@ -1,7 +1,7 @@
-import React from "react";
+
 import { Card } from "react-bootstrap";
 import "./ItemProductos.scss";
-
+ 
 export function ItemProductos({ producto }) {
   return (
     <Card>
@@ -11,8 +11,14 @@ export function ItemProductos({ producto }) {
           {producto.nombre}
         </Card.Title>
         <Card.Text className="body__text">
-          {producto.description}
+          <strong>Precio:</strong> ${producto.precio} <br />
+          <strong>Unidad:</strong> {producto.unidad}
         </Card.Text>
+        {producto.description && (
+          <Card.Text className="body__text">
+            {producto.description}
+          </Card.Text>
+        )}
       </Card.Body>
     </Card>
   );

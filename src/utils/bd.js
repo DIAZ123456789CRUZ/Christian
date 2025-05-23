@@ -1,38 +1,110 @@
-export const Datos=[
+export const Datos = [
     {
-        id:"4",
-        nombre:"Coca cola",
-        precio:18,
-        cantidad:20,
-        unidad:'600ml',
-        imagen:"https://www.cityclub.com.mx/dw/image/v2/BGBD_PRD/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dw9eddff65/images/product/7501031312559_A.jpg?sw=1000&sh=1000&sm=fit",
-         description:"Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño."
+      id: "1",
+      nombre: "Aire comprimido",
+      precio: 300,
+      cantidad: 1,
+      unidad: '600ml',
+      imagen: "/images/airecom.webp",
+      description: "Limpia el polvo y la suciedad de lugares difíciles de alcanzar."
     },
     {
-        id:"4",
-        nombre:"Chokis",
-        precio:9,
-        cantidad:15,
-        unidad:'350gr',
-        imagen:"https://www.cityclub.com.mx/dw/image/v2/BGBD_PRD/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dw9eddff65/images/product/7501031312559_A.jpg?sw=1000&sh=1000&sm=fit",
-         description:"Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño."
+      id: "2",
+      nombre: "Alcohol isopropilico",
+      precio: 200,
+      cantidad: 1,
+      unidad: '350gr',
+      imagen: "/images/alcohol.webp",
+      description: "Limpia componentes electrónicos y elimina residuos."
     },
     {
-        id:"4",
-        nombre:"Chetos",
-        precio:14,
-        cantidad:25,
-        unidad:'400gr',
-        imagen:"https://www.cityclub.com.mx/dw/image/v2/BGBD_PRD/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dw9eddff65/images/product/7501031312559_A.jpg?sw=1000&sh=1000&sm=fit",
-         description:"Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño."
+      id: "3",
+      nombre: "Kit de herramientas",
+      precio: 200,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/desarmadores.webp",
+      description: "Kit de desarmadores de precisión para electrónica."
     },
     {
-        id:"4",
-        nombre:"Rufles",
-        precio:14,
-        cantidad:25,
-        unidad:'400gr',
-        imagen:"https://www.cityclub.com.mx/dw/image/v2/BGBD_PRD/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dw9eddff65/images/product/7501031312559_A.jpg?sw=1000&sh=1000&sm=fit",
-        description:"Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño."
-    }
-]
+      id: "4",
+      nombre: "Espuma limpiadora",
+      precio: 150,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/espuma.webp",
+      description: "Limpia pantallas y superficies delicadas sin rayar."
+    },
+    {
+      id: "5",
+      nombre: "Isopos",
+      precio: 50,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/isopos.webp",
+      description: "Limpia conectores y áreas pequeñas con precisión."
+    },
+    {
+      id: "6",
+      nombre: "Limpiador de pantalla",
+      precio: 60,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/limpiador.webp",
+      description: "Lubrica la pantalla dejándola limpia y brillosa."
+    },
+    {
+      id: "7",
+      nombre: "Microfibra",
+      precio: 30,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/microfibra2.webp",
+      description: "Limpia pantallas y superficies sin dejar pelusa."
+    },
+    {
+      id: "8",
+      nombre: "Pasta térmica",
+      precio: 300,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/pasta.webp",
+      description: "Mejora la transferencia de calor entre componentes."
+    },
+    {
+      id: "9",
+      nombre: "Pulsera antiestática",
+      precio: 150,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/pulsera.webp", 
+      description: "Protege los componentes electrónicos de descargas estáticas."
+    },
+    {
+      id: "10",
+      nombre: "Paquete 1",
+      precio: 150,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/paquete1.png", 
+      description: "Protege los componentes electrónicos de descargas estáticas."
+    },
+    {
+      id: "11",
+      nombre: "Paquete 2",
+      precio: 150,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/paquete2.png", 
+      description: "Protege los componentes electrónicos de descargas estáticas."
+    },
+    {
+      id: "12",
+      nombre: "Paquete 3",
+      precio: 150,
+      cantidad: 1,
+      unidad: '400gr',
+      imagen: "/images/paquete3.png", 
+      description: "Protege los componentes electrónicos de descargas estáticas."
+    },
+  ];

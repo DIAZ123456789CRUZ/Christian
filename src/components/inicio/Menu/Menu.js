@@ -1,18 +1,23 @@
-import React from 'react';
-import {Navbar, Container, Nav} from "react-bootstrap";
-import {Link} from "react-router-dom";
+import React from "react";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-export function Menu() {
+export function Menu() { 
   return (
-    <Navbar bg="primary" data-bs-theme="dark">
-    <Container>
-      <Navbar.Brand to="/">Barra de Herramientas</Navbar.Brand>
-      <Nav className="me-auto">
-        <Link to="/">Home</Link>
-        <Link to="/producto">Productos</Link>
-        <Link to="/formproductos">Gestion de productos</Link>
-      </Nav>
-    </Container>
-  </Navbar>
-  )
+    <Navbar bg="primary" variant="dark">
+      <Container>
+        <Navbar.Brand  >Kit-Clic</Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link as={Link} to="/Home">Home</Nav.Link>
+          <Nav.Link as={Link} to="/producto">Productos</Nav.Link>
+          <Nav.Link as={Link} to="/formproductos">Gestión de productos</Nav.Link>
+        </Nav>
+        <Nav className="me-auto">
+          <Nav.Link as={Link} to="/">Inicio de sesion</Nav.Link>
+          <Nav.Link as={Link} to="/Registro">Registro</Nav.Link>
+
+        </Nav>
+      </Container>
+    </Navbar>
+  );
 }
